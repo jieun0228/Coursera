@@ -1,9 +1,9 @@
 ## Getting adn cleaning data
-### Lecture01
+## Lecture01
 
 setwd("")
 
-ibrary(XML)
+library(XML)
 fileUrl <- "http://www.w3schools.com/xml/simple.xml"
 doc <- xmlTreeParse(fileUrl, useInternal=TRUE)
 rootNode <- xmlRoot(doc)
