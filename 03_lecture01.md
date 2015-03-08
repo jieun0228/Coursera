@@ -25,7 +25,7 @@ myjson <- toJSON(iris, pretty=TRUE)
 iris2 <- fromJSON(myjson)
 
 
-#data.table inherets from data.frame
+* data.table inherets from data.frame
 library(data.table)
 DF = data.frame(x=rnorm(9), y=rep(c("a","b","c"), each=3), z=rnorm(9))
 DT = data.table(x=rnorm(9), y=rep(c("a","b","c"), each=3), z=rnorm(9))
