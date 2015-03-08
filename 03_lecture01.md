@@ -1,4 +1,4 @@
-## Getting adn cleaning data
+# Getting adn cleaning data
 ## Lecture01
 
 setwd("")
